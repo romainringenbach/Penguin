@@ -4,7 +4,11 @@ title: myDocumentation
 ---
 
 {% for category in site.categories %}
+	{% if category.first == site.project_main_category %}
+	<div class="firstcatbloc" id="{{ category | first | remove:' ' }}">
+	{% else %}
     <div class="catbloc" id="{{ category | first | remove:' ' }}">
+    {% endif %}
         <h2>{{ category | first }}</h2>
         
         <ul>
