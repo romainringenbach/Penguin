@@ -9,8 +9,6 @@ title: myDocumentation
 	{% else %}
     <div class="catbloc nav_button" id="{{ category | first | remove:' ' }}">
     {% endif %}
-        <h2>{{ category | first }}</h2>
-        
         <ul>
            {% for posts in category %}
              {% for post in posts %}
