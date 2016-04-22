@@ -5,9 +5,9 @@ title: myDocumentation
 
 {% for category in site.categories %}
 	{% if category.first == site.project_main_category %}
-	<div class="firstcatbloc" id="{{ category | first | remove:' ' }}">
+	<div class="firstcatbloc nav_button" id="{{ category | first | remove:' ' }}">
 	{% else %}
-    <div class="catbloc" id="{{ category | first | remove:' ' }}">
+    <div class="catbloc nav_button" id="{{ category | first | remove:' ' }}">
     {% endif %}
         <h2>{{ category | first }}</h2>
         
@@ -31,3 +31,4 @@ title: myDocumentation
         </ul>
     </div>
 {% endfor %}
+<script type="text/javascript" src="scripts/script.js"></script>
