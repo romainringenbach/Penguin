@@ -1,12 +1,123 @@
+/***************************************
+ * Header
+ ***************************************/
+
+header {
+
+}
+
+header title  {
+
+}
+
+header strong {
+
+}
+
+header img {
+
+}
+
+/***************************************
+ * Navigation
+ ***************************************/
+
+nav {
+
+}
+
+nav a {
+
+} 
+
+/***************************************
+ * Footer
+ ***************************************/
+
+footer {
+
+}
+
+footer p {
+
+}
+
+footer a {
+
+}
+
+/***************************************
+ * Content
+ ***************************************/
+
+/* Text  */
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+.content p {
+
+}
+
+.content a {
+
+}
+
+.content strong {
+
+}
+
+.content em {
+
+}
+
+q, blockquote {
+
+}
+
+/* Block  */
+
+
+.content {
+
+}
+
+article {
+
+}
+
 .catbloc:not(:target) {
     display: none;
 
 }
 
+/* List  */
+
 ul {
     list-style-type: none;
 }
 
-nav a {
-
+article ul {
+	list-style-type: circle;
 }
