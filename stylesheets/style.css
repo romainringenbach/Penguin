@@ -1,3 +1,7 @@
 .catbloc:not(:target) {
     display: none;
 }
+
+ul {
+    list-style-type: none;
+}
