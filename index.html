@@ -5,9 +5,9 @@ title: myDocumentation
 
 {% for category in site.categories %}
 	{% if category.first == site.project_main_category %}
-	<div class="firstcatbloc nav_button" id="{{ category | first | remove:' ' }}">
+	<div class="firstcatbloc" id="{{ category | first | remove:' ' }}">
 	{% else %}
-    <div class="catbloc nav_button" id="{{ category | first | remove:' ' }}">
+    <div class="catbloc" id="{{ category | first | remove:' ' }}">
     {% endif %}
         <ul>
            {% for posts in category %}
