@@ -4,7 +4,12 @@ url:
 project_name: 
 project_description:
 project_logo: 
-project_categories_with_dates: [News]
+project_categories_with_dates:
+  - News
+  - Lol
+project_main_category: Doc
+
+
 
 
 simple_color:
