@@ -1,5 +1,6 @@
 body {
 	background-color:  #676767;
+	padding: 0px;
 }
 
 /***************************************
@@ -8,17 +9,50 @@ body {
 
 header {
 	
+	position: absolute;
+	top: 0%;
+	left: 50%;
+	transform: translate(-50%, -0%);
+	width: 100%;	
+	max-width: 700px;
+	height: 22%;
+	padding: 0px;
+
+}
+
+.header {
+	padding: 5%;
 }
 
 header title  {
-
+	display: block;
+	font-size: 2em;
+	font-style: bold;
+	color: #1c1c1c;
 }
 
 header strong {
+	text-align: justify;
+	font-size: 1.1em;
+	font-style: bold;
+	color: #1c1c1c;	
+}
 
+header .logo {
+	float: left;
 }
 
 header img {
+	width: 200px;
+	height: 200px;
+}
+
+header .text {
+	float: left;
+	margin-left: 5%;
+	position: relative;
+	top:0%;
+	max-width: 60%;
 
 }
 
@@ -31,7 +65,7 @@ header img {
 	width: 100%;
 	height: 8%;
 	position: absolute;
-	top: 22%;
+	top: 32%;
 	left: 50%;
 	transform: translate(-50%, -0%);
 	z-index: 3;	
@@ -158,7 +192,7 @@ q, blockquote {
 	background-color: #d3d3d3;
 	position: absolute;
     left: 50%;
-    top: 30%;
+    top: 40%;
 	transform: translate(-50%, -0%);
 	padding: 0px 0px 0px 0px;	
 
