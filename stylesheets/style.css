@@ -7,7 +7,7 @@ body {
  ***************************************/
 
 header {
-
+	
 }
 
 header title  {
@@ -27,11 +27,26 @@ header img {
  ***************************************/
 
 nav {
-
+	background-color: #282828;
+	max-width: 700px;
+	width: 100%;
+	
+	position: relative;
+    left: 50%;
+	transform: translate(-50%, -0%);
+	z-index: 3;	
+	padding: 0% 0% 0% 0%;
 }
 
-nav a {
-
+nav a {	
+	text-align: center;
+	font-size: 1.8em;
+	font-style: bold;
+	text-decoration: none;
+	color: #1c1c1c;	
+	display: block;
+	float: left;
+	padding: 1% 1% 1% 1%;
 } 
 
 /***************************************
@@ -56,66 +71,65 @@ footer a {
 
 /* Text  */
 
-article title {
-	font-size: 1.6em;
-	font-style: bold;
+.article-header title {
+	font-size: 1.8em;
 	color: #1c1c1c;
-	display: block;
+	display : inline;
 }	
 
 
-h1 {
+article h1 {
 	font-size: 1.6em;
 	color: #1c1c1c;
 }
 
-h2 {
+article h2 {
 	font-size: 1.4em;
 	font-style: bold;
 	color: #1c1c1c;
 }
 
-h3 {
+article h3 {
 	font-size: 1.4em;
 	color: #1c1c1c;
 }
 
-h4 {
+article h4 {
 	font-size: 1.2em;
 	font-style: bold;
 	color: #1c1c1c;
 }
 
-h5 {
+article h5 {
 	font-size: 1.2em;
 	color: #1c1c1c;
 }
 
-h6 {
+article h6 {
 	font-size: 1em;
 	font-style: bold;
 	color: #1c1c1c;
 }
 
-.content p {
+article  p {
 	text-align: justify;
 	font-size: 1em;
 	color: #1c1c1c;
 }
 
-.content a {
+article  a {
 	font-size: 1em;
 	font-style: bold;
 	color: #000000;
 }
 
-.content strong {
+article  strong {
 	font-size: 1em;
 	font-style: bold;
 	color: #1c1c1c;
 }
 
-.content em {
+article  em {
 	font-size: 1em;
 	font-style: italic;
 	color: #1c1c1c;
@@ -135,6 +149,7 @@ q, blockquote {
 	background-color: #d3d3d3;
 	position: absolute;
     left: 50%;
+    top: 30%;
 	transform: translate(-50%, -0%);
 	padding: 0px 0px 0px 0px;	
 
@@ -142,6 +157,10 @@ q, blockquote {
 
 article {
 	padding: 5% 5% 5% 5%;
+}
+
+.article_header {
+
 }
 
 .catbloc {
