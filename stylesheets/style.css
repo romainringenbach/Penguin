@@ -26,27 +26,36 @@ header img {
  * Navigation
  ***************************************/
 
-nav {
+.navigation {
 	background-color: #282828;
-	max-width: 700px;
 	width: 100%;
-	
-	position: relative;
-    left: 50%;
+	height: 8%;
+	position: absolute;
+	top: 22%;
+	left: 50%;
 	transform: translate(-50%, -0%);
 	z-index: 3;	
-	padding: 0% 0% 0% 0%;
+	max-width: 700px;
+	padding: 0px;
+
 }
 
-nav a {	
+nav {
+	margin: 0px;
+	padding: 1% 4% 1% 4%;
+}
+
+.navigation a strong {	
 	text-align: center;
 	font-size: 1.8em;
 	font-style: bold;
 	text-decoration: none;
-	color: #1c1c1c;	
+	color: #d3d3d3;	
 	display: block;
 	float: left;
 	padding: 1% 1% 1% 1%;
+	position: relative;
+	top:2%;
 } 
 
 /***************************************
@@ -79,29 +88,29 @@ footer a {
 
 
 article h1 {
-	font-size: 1.6em;
+	font-size: 1.3em;
 	color: #1c1c1c;
 }
 
 article h2 {
-	font-size: 1.4em;
+	font-size: 1.2em;
 	font-style: bold;
 	color: #1c1c1c;
 }
 
 article h3 {
-	font-size: 1.4em;
+	font-size: 1.2em;
 	color: #1c1c1c;
 }
 
 article h4 {
-	font-size: 1.2em;
+	font-size: 1.1em;
 	font-style: bold;
 	color: #1c1c1c;
 }
 
 article h5 {
-	font-size: 1.2em;
+	font-size: 1.1em;
 	color: #1c1c1c;
 }
 
