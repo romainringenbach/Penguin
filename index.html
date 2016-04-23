@@ -5,31 +5,31 @@ title: myDocumentation
 
 {% for category in site.categories %}
 	{% if category.first == site.project_main_category %}
-	<div class="firstcatbloc" id="{{ category | first | remove:' ' }}">
+    <div class="firstcatbloc" id="{{ category | first | remove:' ' }}">
 	{% else %}
     <div class="catbloc" id="{{ category | first | remove:' ' }}">
-    {% endif %}
-        <ul>
-           {% for posts in category %}
-             {% for post in posts %}
-               {% if post.url %}
-                 <li>
-                   <article>
-                     <div class="article-header">
-                      <title>{{ post.title }}</title>
-                      {% for category_date in site.project_categories_with_dates %}
-                        {% if category.first == category_date %}
-                          <time>{{ post.date | date: "%-d %B %Y" }}</time>
-                        {% endif %}
-                      {% endfor %} 
-                      </div>
-                    {{ post.content }}
-                    </article>
-                 </li>
-               {% endif %}
-             {% endfor %}
-           {% endfor %}
-        </ul>
+  {% endif %}
+      <ul>
+        {% for posts in category %}
+          {% for post in posts %}
+            {% if post.url %}
+              <li>
+                <article>
+                  <div class="article-header">
+                    <title>{{ post.title }}</title>
+                    {% for category_date in site.project_categories_with_dates %}
+                      {% if category.first == category_date %}
+                        <time>{{ post.date | date: "%-d %B %Y" }}</time>
+                      {% endif %}
+                    {% endfor %} 
+                  </div>
+                  {{ post.content }}
+                </article>
+              </li>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      </ul>
     </div>
 {% endfor %}
 <script type="text/javascript" src="scripts/script.js"></script>
