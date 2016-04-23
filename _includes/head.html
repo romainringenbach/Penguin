@@ -4,5 +4,7 @@
 	
 	<title>{{ site.project_name }}</title>
 	<meta name="viewport" content="width=device-width"/>
-	<link href="/images/favicon.png" type="image/png" rel="icon" >
+	{% if site.project_logo %}
+	<link href="{{ site.project_logo }}" type="image/png" rel="icon" >
+	{% endif %}
 </head>
