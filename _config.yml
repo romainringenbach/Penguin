@@ -1,12 +1,11 @@
 #Penguin conf
 
 url: 
-project_name: 
-project_description:
-project_logo: 
+project_name: Penguin
+project_description: "A stupid theme for github-pages and your project. Add title, description, logo, and documentation. Change some color, add other content, and you're ready!"
+project_logo: ./images/logo.png
 project_categories_with_dates:
   - News
-  - Lol
 project_main_category: Doc
 
 
