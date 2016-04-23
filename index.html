@@ -14,13 +14,17 @@ title: myDocumentation
              {% for post in posts %}
                {% if post.url %}
                  <li>
-                    {% for category_date in site.project_categories_with_dates %}
-                   		{% if category.first == category_date %}
-                   			<time>{{ post.date | date: "%-d %B %Y" }}</time>
-                   		{% endif %}
-                    {% endfor %}                 
-                   <h1>{{ post.title }}</h1>
-                   <article>{{ post.content }}</article>
+                   <article>
+                     <div class="article-header">
+                      <title>{{ post.title }}</title>
+                      {% for category_date in site.project_categories_with_dates %}
+                        {% if category.first == category_date %}
+                          <time>{{ post.date | date: "%-d %B %Y" }}</time>
+                        {% endif %}
+                      {% endfor %} 
+                      </div>
+                    {{ post.content }}
+                    </article>
                  </li>
                {% endif %}
              {% endfor %}
