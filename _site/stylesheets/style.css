@@ -1,3 +1,197 @@
+body {
+	background-color:  #676767;
+}
+
+/***************************************
+ * Header
+ ***************************************/
+
+header {
+	
+}
+
+header title  {
+
+}
+
+header strong {
+
+}
+
+header img {
+
+}
+
+/***************************************
+ * Navigation
+ ***************************************/
+
+.navigation {
+	background-color: #282828;
+	width: 100%;
+	height: 8%;
+	position: absolute;
+	top: 22%;
+	left: 50%;
+	transform: translate(-50%, -0%);
+	z-index: 3;	
+	max-width: 700px;
+	padding: 0px;
+
+}
+
+nav {
+	margin: 0px;
+	padding: 1% 4% 1% 4%;
+}
+
+.navigation a strong {	
+	text-align: center;
+	font-size: 1.8em;
+	font-style: bold;
+	text-decoration: none;
+	color: #d3d3d3;	
+	display: block;
+	float: left;
+	padding: 1% 1% 1% 1%;
+	position: relative;
+	top:2%;
+} 
+
+/***************************************
+ * Footer
+ ***************************************/
+
+footer {
+
+}
+
+footer p {
+
+}
+
+footer a {
+
+}
+
+/***************************************
+ * Content
+ ***************************************/
+
+/* Text  */
+
+.article-header title {
+	font-size: 1.8em;
+	color: #1c1c1c;
+	display : inline;
+}	
+
+
+article h1 {
+	font-size: 1.3em;
+	color: #1c1c1c;
+}
+
+article h2 {
+	font-size: 1.2em;
+	font-style: bold;
+	color: #1c1c1c;
+}
+
+article h3 {
+	font-size: 1.2em;
+	color: #1c1c1c;
+}
+
+article h4 {
+	font-size: 1.1em;
+	font-style: bold;
+	color: #1c1c1c;
+}
+
+article h5 {
+	font-size: 1.1em;
+	color: #1c1c1c;
+}
+
+article h6 {
+	font-size: 1em;
+	font-style: bold;
+	color: #1c1c1c;
+}
+
+article  p {
+	text-align: justify;
+	font-size: 1em;
+	color: #1c1c1c;
+}
+
+article  a {
+	font-size: 1em;
+	font-style: bold;
+	color: #000000;
+}
+
+article  strong {
+	font-size: 1em;
+	font-style: bold;
+	color: #1c1c1c;
+}
+
+article  em {
+	font-size: 1em;
+	font-style: italic;
+	color: #1c1c1c;
+}
+
+q, blockquote {
+	font-size: 1.1em;
+	font-style: italic;
+}
+
+/* Block  */
+
+
+.content {
+
+	max-width: 700px;
+	background-color: #d3d3d3;
+	position: absolute;
+    left: 50%;
+    top: 30%;
+	transform: translate(-50%, -0%);
+	padding: 0px 0px 0px 0px;	
+
+}
+
+article {
+	padding: 5% 5% 5% 5%;
+}
+
+.article_header {
+
+}
+
+.catbloc {
+	padding: 0px 0px 0px 0px;
+}
+
 .catbloc:not(:target) {
     display: none;
+
+}
+
+/* List  */
+
+ul {
+    list-style-type: none;
+    padding: 0px 0px 0px 0px;
+}
+
+li {
+	padding: 0px 0px 0px 0px;
+}
+
+article ul {
+	list-style-type: circle;
 }
