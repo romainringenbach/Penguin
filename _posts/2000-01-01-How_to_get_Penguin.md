@@ -20,6 +20,7 @@ Clone the repository
 
 Create a new branch for your project called gh-pages and add it as remote repository :
 
+    $ git branch gh-pages
     $ git remote add gh-pages https://github.com/user/project.git
     $ git remote set-branches gh-pages gh-pages
     $ git checkout gh-pages
