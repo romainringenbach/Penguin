@@ -5,6 +5,8 @@ published: true
 category: Documentation
 ---
 
+# Get this gh-pages theme
+
 You project folder organization should be like this:
 
     /project
@@ -29,7 +31,6 @@ Push your github-page
 
     $ git push --set-upstream gh-pages gh-pages
 
+# How to update Penguin
 
-
-
-
+Instructions will come soon.
