@@ -34,4 +34,14 @@ Push your github-page
 
 # How to update Penguin
 
-Instructions will come soon.
+Be careful if you made code source modifications
+
+WARNING : This method is not tested ! 
+
+Be on gh-pages branch
+
+    $ git checkout gh-pages
+
+Pull the repository 
+
+    $ git pull origin gh-pages
