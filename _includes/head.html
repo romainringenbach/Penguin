@@ -1,6 +1,15 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+
+	{% if site.project_description %}
+	<meta name="description" content="{{ site.project_description }}"/>	
+	{% endif %}
+	{% if site.project_keywords %}
+	<meta name="description" content="{{ site.project_keywords }}"/>	
+	{% endif %}
+
+	<meta name="keywords" content="Neaworld, Romain, Ringenbach, IT, Pixel Art, Informatique, Programmation, NodeJS, GitHub" />
 	
 	<title>{{ site.project_name }}</title>
 	<meta name="viewport" content="width=device-width"/>
