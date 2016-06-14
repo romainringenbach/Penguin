@@ -43,3 +43,4 @@ The only things you must complete is `project_main_category` , others can be lef
 - simple border management
 - no footer
 - no rss/atom feed
+- SEO
