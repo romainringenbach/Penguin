@@ -2,12 +2,12 @@
 
 url: 
 project_name: Penguin
-project_description: "A stupid theme for github-pages and your project. Add title, description, logo, and documentation. Change some colors, add other content, and you're ready!"
+project_description: "A Jekyll Simgle-Page theme for you project, simple, easy to customize !"
 project_logo: ./images/logo.png
 project_categories_with_dates: [News]
 project_main_category: Documentation
 
-
+content_hide: true
 
 
 simple_color:
