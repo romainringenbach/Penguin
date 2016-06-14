@@ -2,7 +2,7 @@
 
 url: 
 project_name: Penguin
-project_description: "A Jekyll Simgle-Page theme for you project, simple, easy to customize !"
+project_description: "A Jekyll Simgle-Page theme for your project, simple, easy to customize !"
 project_logo: ./images/logo.png
 project_categories_with_dates: [News]
 project_main_category: Documentation
