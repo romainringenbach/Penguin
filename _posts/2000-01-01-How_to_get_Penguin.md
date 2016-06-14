@@ -36,12 +36,11 @@ Push your github-page
 
 Be careful if you made code source modifications
 
-WARNING : This method is not tested ! 
-
 Be on gh-pages branch
 
     $ git checkout gh-pages
 
-Pull the repository 
+Pull the repository (With one of the following branch)
 
-    $ git pull origin gh-pages
+    $ git pull origin stable
+    $ git pull origin dev
