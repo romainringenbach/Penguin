@@ -1,6 +1,6 @@
 #Penguin conf
 
-url: 
+url: penguin.neaworld.fr
 project_name: Penguin
 project_description: "A Jekyll Simgle-Page theme for your project, simple, easy to customize !"
 project_logo: ./images/logo.png
