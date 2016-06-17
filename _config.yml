@@ -2,7 +2,7 @@
 
 url: penguin.neaworld.fr
 project_name: Penguin
-project_description: "A Jekyll Simgle-Page theme for your project, simple, easy to customize !"
+project_description: "A Jekyll Single-Page theme for your project, simple, easy to customize !"
 project_logo: ./images/logo.png
 project_categories_with_dates: [News]
 project_main_category: Documentation
@@ -14,7 +14,7 @@ simple_color:
   enable: true
   main_color:
   secondary_color:
-  third_color:  
+  third_color:
 
 # Where things are
 source:       .
