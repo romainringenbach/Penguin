@@ -1,6 +1,6 @@
 #Penguin conf
 
-url: 
+url:
 project_name: Penguin
 project_description: "A Jekyll Simgle-Page theme for you project, simple, easy to customize !"
 project_logo: ./images/logo.png
@@ -12,10 +12,14 @@ content_hide: true
 
 
 simple_color:
-  enable: true
-  main_color:
-  secondary_color:
-  third_color:  
+    enable: true
+    main_color: "#d3d3d3"
+    secondary_color: "#282828"
+    third_color: "#676767"
+
+sass:
+    sass_dir: _sass
+    style: compressed
 
 # Where things are
 source:       .
