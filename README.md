@@ -1,2 +1,3 @@
 # Penguin
-Another theme with cool features for projects page with github pages
+
+A single-page theme for gh-pages. Come with simple customization, see [Penguin website](http://penguin.neaworld.fr) for more details :) 
