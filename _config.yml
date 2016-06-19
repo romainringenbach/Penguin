@@ -1,6 +1,7 @@
 #Penguin conf
 
 url: penguin.neaworld.fr
+
 project_name: Penguin
 project_description: "A Jekyll Single-Page theme for your project, simple, easy to customize !"
 project_logo: ./images/logo.png
@@ -11,10 +12,14 @@ project_keywords: "Penguin, Jekyll, Single-Page, Simple, Project, GitHub, gh-pag
 content_hide: true
 
 simple_color:
-  enable: true
-  main_color: 
-  secondary_color:
-  third_color:
+    enable: true
+    main_color: "#d3d3d3"
+    secondary_color: "#282828"
+    third_color: "#676767"
+
+sass:
+    sass_dir: _sass
+    style: compressed
 
 # Where things are
 source:       .
