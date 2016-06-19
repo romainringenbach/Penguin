@@ -7,6 +7,7 @@ project_logo: ./images/logo.png
 project_categories_with_dates: [News]
 project_main_category: Documentation
 project_keywords: "Penguin, Jekyll, Single-Page, Simple, Project, GitHub, gh-pages"
+project_team_name: "nealith"
 
 content_hide: true
 
