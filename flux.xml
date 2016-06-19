@@ -15,7 +15,7 @@ layout: nil
 
     {% for post in site.posts %}
      {% for category_date in site.project_categories_with_dates %}
-      {% if category.first == category_date %}
+      {% if post.category == category_date %}
     <entry>
         <title>{{ post.title }}</title>
         <link href="{{ post.url }}"/>
