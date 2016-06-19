@@ -18,7 +18,7 @@ You project folder organization should be like this:
 Clone the repository
 
     $ git clone https://github.com/nealith/Penguin.git
-    $ git clone git@github.com:nealith/Test-penguin.git
+    $ git clone git@github.com:nealith/Penguin.git
 
 Create a new branch for your project called gh-pages and add it as remote repository :
 
