@@ -12,7 +12,7 @@ content_hide: true
 
 simple_color:
   enable: true
-  main_color:
+  main_color: 
   secondary_color:
   third_color:
 
