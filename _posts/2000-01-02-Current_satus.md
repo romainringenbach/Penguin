@@ -34,7 +34,7 @@ The configuration:
 
 The only things you must complete is `project_main_category` , others can be left empty
 
-# Things are not take in charge (in this alpha) (strikethrough = avaible in dev branch)
+# Things that are not supported (in this alpha) (strikethrough = avaible in dev branch)
 
 - responsive design
 - navigation decorations

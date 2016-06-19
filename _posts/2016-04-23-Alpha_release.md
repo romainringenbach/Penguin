@@ -20,7 +20,7 @@ I don't know when will be the next release.
 - Logo, title and description : stupid management
 - Basic navigation bar
 
-# Things are not take in charge
+# Things that are not supported
 
 - responsive design
 - navigation decorations
