@@ -1,6 +1,9 @@
 ---
 layout: default
 title: myDocumentation
+description: {{ site.project_description }}
+title: {{ site.project_name }}
+tags: {{ site.project_keywords }}
 ---
 
 {% for category in site.categories %}
@@ -23,7 +26,7 @@ title: myDocumentation
 											{% if category.first == category_date %}
 												<time>{{ post.date | date: "%-d %B %Y" }}</time>
 											{% endif %}
-										{% endfor %} 
+										{% endfor %}
 									</div>
 									{{ post.content }}
 								</article>
