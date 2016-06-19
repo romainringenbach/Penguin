@@ -1,7 +1,7 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="alternate" type="application/rss+xml" title="Follow us ! :)" href="/flux.xml"/>
-	<link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+	<link rel="stylesheet" type="text/css" href="/stylesheets/styles.css">
 	{% if site.url %}
 	<link rel="canonical" href="http://{{ site.url }}"/>
 	{% endif %}
@@ -18,7 +18,7 @@
 	"/>
 	{% endif %}
 
-	<title>{{ site.project_name }}</title>
+	<title>{{ page.title }}</title>
 	<meta name="viewport" content="width=device-width"/>
 	{% if site.project_logo %}
 	<link href="{{ site.project_logo }}" type="image/png" rel="icon" >

@@ -1,10 +1,10 @@
 <header>
 
-	{% if site.project_logo %}
+	{% if site.logo %}
 
 	<div class="logo">
 
-		<img src="{{site.project_logo}}">
+		<img src="{{site.logo}}">
 
 	</div>
 
@@ -12,15 +12,15 @@
 
 	<div class="text">
 
-		{% if site.project_name %}
+		{% if site.defaults[0].values.title %}
 
-		<title>{{ site.project_name }}</title>
+		<title>{{ site.defaults[0].values.title }}</title>
 
 		{% endif %}
 
-		{% if site.project_description %}
+		{% if site.defaults[0].values.description %}
 
-		<strong>{{ site.project_description }}</strong>
+		<strong>{{ site.defaults[0].values.description }}</strong>
 
 		{% endif %}
 

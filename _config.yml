@@ -2,21 +2,30 @@
 
 url: penguin.neaworld.fr
 
-project_name: Penguin
-project_description: "A Jekyll Single-Page theme for your project, simple, easy to customize !"
-project_logo: ./images/logo.png
-project_categories_with_dates: [News]
-project_main_category: Documentation
-project_keywords: "Penguin, Jekyll, Single-Page, Simple, Project, GitHub, gh-pages"
-project_team_name: "nealith"
+logo: /images/logo.png
+categories_with_dates: [News]
+main_category: Documentation
+team_name: "nealith"
 
 content_hide: true
+
+defaults:
+    -
+        scope:
+            path: ""
+        values:
+            title: "Penguin"
+            description: "A Jekyll Simgle-Page theme for you project, simple, easy to customize !"
+            tags: ["Penguin", "Jekyll", "Single-Page", "Simple", "Project", "GitHub", "gh-pages"]
+
 
 simple_color:
     enable: true
     main_color: "#d3d3d3"
     secondary_color: "#282828"
     third_color: "#676767"
+
+# Sass conf
 
 sass:
     sass_dir: _sass
@@ -68,7 +77,6 @@ paginate_path: /page:num
 timezone:      null
 
 quiet:    false
-defaults: []
 
 # Markdown Processors
 rdiscount:
