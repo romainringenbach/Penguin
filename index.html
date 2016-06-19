@@ -1,13 +1,9 @@
 ---
 layout: default
-title: myDocumentation
-description: {{ site.project_description }}
-title: {{ site.project_name }}
-tags: {{ site.project_keywords }}
 ---
 
 {% for category in site.categories %}
-	{% if category.first == site.project_main_category %}
+	{% if category.first == site.main_category %}
 		<div class="firstcatbloc" id="{{ category | first | remove:' ' }}">
 	{% else %}
 		<div class="catbloc" id="{{ category | first | remove:' ' }}">
@@ -22,7 +18,7 @@ tags: {{ site.project_keywords }}
 										{% if post.title %}
 											<title>{{ post.title }}</title>
 										{% endif %}
-										{% for category_date in site.project_categories_with_dates %}
+										{% for category_date in site.categories_with_dates %}
 											{% if category.first == category_date %}
 												<time>{{ post.date | date: "%-d %B %Y" }}</time>
 											{% endif %}
