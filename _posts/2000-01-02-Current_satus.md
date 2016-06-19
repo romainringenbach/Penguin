@@ -7,7 +7,7 @@ category: Documentation
 
 # Features
 
-- One-page site
+- Single-page site
 - Content management
 - Categories management
 - Basic style css
@@ -41,6 +41,6 @@ The only things you must complete is `project_main_category` , others can be lef
 - template for header disposition
 - ~~simple color management~~
 - simple border management
-- no footer
-- ~~no rss/atom feed~~
+- footer
+- ~~rss/atom feed~~
 - SEO

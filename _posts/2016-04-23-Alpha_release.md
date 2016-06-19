@@ -5,8 +5,30 @@ published: true
 category: News
 ---
 
-Hi !
+# Hi !
 
 Alpha release for Penguin, features are limited currently, read the documentation to know more.
 
 I don't know when will be the next release.
+
+# Current features
+
+- Single-page site
+- Content management
+- Categories management
+- Basic style css
+- Logo, title and description : stupid management
+- Basic navigation bar
+
+# Things are not take in charge
+
+- responsive design
+- navigation decorations
+- template for header disposition
+- simple color management
+- simple border management
+- footer
+- rss/atom feed
+- SEO
+
+Refer to the documentation to know what is implemented in dev branch
