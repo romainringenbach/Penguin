@@ -3,6 +3,8 @@ layout: post
 title: Current Status - Alpha 1
 published: true
 category: Documentation
+description: Current Status, avaible features, short documentation about customizing.
+tags: [penguin, description, current status, gh-pages, documentation]
 ---
 
 # Features

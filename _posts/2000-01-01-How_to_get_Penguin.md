@@ -3,6 +3,8 @@ layout: post
 title: How to get Penguin
 published: true
 category: Documentation
+description: This documentation page tell you how to install Penguin in your github project.
+tags: [penguin, installation, gh-pages, documentation]
 ---
 
 # Get this gh-pages theme
