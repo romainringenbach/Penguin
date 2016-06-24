@@ -65,3 +65,6 @@ I thing this example is enough for a explanation :)
 - simple border management
 - footer
 - advanced SEO
+- multi-languages
+- basic search engine
+- additionnal navigation bar for sub categories
