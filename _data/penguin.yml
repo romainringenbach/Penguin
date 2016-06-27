@@ -1,0 +1,44 @@
+url: http://penguin.neaworld.fr
+logo: /images/logo.png
+
+main_background:
+landing_background:
+404_background:
+
+default_language: en
+default_charset: "UTF-8"
+
+simple_color:
+    enable: true
+    main_color: "#d3d3d3"
+    secondary_color: "#282828"
+    third_color: "#676767"
+
+languages:
+    en:
+        title: "Penguin"
+        description: "A Jekyll Simgle-Page theme for you project, simple, easy to customize !"
+        tags: ["Penguin", "Jekyll", "Single-Page", "Simple", "Project", "GitHub", "gh-pages"]
+
+        main_category: Documentation
+        first_level_categories: [Documentation,Help,News]
+        second_level_categories: []
+        third_level_categories: []
+        categories_with_dates: [News]
+
+        rss_title: "Follow us ! :)"
+        404_message: "Hey ! It's look like a take vacation in the south ! kiss !"
+
+    fr:
+        title: "Penguin"
+        description: "Un thème Jekyll en single-page pour votre projet, simple, facile à personnaliser !"
+        tags: ["Penguin", "Jekyll", "Single-Page", "Simple", "Projet", "GitHub", "gh-pages"]
+
+        main_category: Documentation
+        first_level_categories: [Documentation,Aide,Actualité]
+        second_level_categories: []
+        third_level_categories: []
+        categories_with_dates: [Actualité]
+
+        rss_title: "Suis nous !"
+        404_message: "Salut ! Il semblerait que j'aie prit des vacances dans le sud ! Bisou !"

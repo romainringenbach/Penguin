@@ -1,0 +1,15 @@
+{% if {{ {{ page.tags | array_to_sentence_string }} | number_of_words }} != 0 %}
+<meta name="keywords" content="
+    {{ page.tags | array_to_sentence_string }}
+"/>
+{% else %}
+    {% if site.data.penguin.languages.[page.language].tags %}
+<meta name="keywords" content="
+    {{ site.data.penguin.languages.[page.language].tags | array_to_sentence_string }}
+"/>
+    {% else %}
+<meta name="keywords" content="
+    {{ site.data.penguin.languages.[site.data.penguin.default_language].tags | array_to_sentence_string }}
+"/>
+    {% endif %}
+{% endif %}
