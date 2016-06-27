@@ -27,7 +27,7 @@ languages:
         categories_with_dates: [News]
 
         rss_title: "Follow us ! :)"
-        404_message: "Hey ! It's look like a take vacation in the south ! kiss !"
+        404_message: "Hey ! It's look like I take vacation in the south ! kiss !"
 
     fr:
         title: "Penguin"
