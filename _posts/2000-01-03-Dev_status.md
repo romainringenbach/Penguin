@@ -9,7 +9,10 @@ tags: [penguin, description, dev status, gh-pages, documentation]
 
 # Stable ?
 
-The current [gh-pages](http://penguin.neaworld.fr/) work under dev branch
+~~The current [gh-pages](http://penguin.neaworld.fr/) work under dev branch~~ So don't update/use dev branch of Penguin. (The configuration file and landing page are broken).
+
+Internationalization is currently in developpement, it will come with a new landing page.
+New [configuration file](https://github.com/nealith/Penguin/blob/dev/_data/penguin.yml) is already avaible for the curious :)
 
 # Features
 
