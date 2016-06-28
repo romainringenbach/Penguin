@@ -17,7 +17,7 @@ simple_color:
 languages:
     en:
         title: "Penguin"
-        description: "A Jekyll Simgle-Page theme for you project, simple, easy to customize !"
+        description: "A Jekyll Simgle-Page theme for your project, simple, easy to customize !"
         tags: ["Penguin", "Jekyll", "Single-Page", "Simple", "Project", "GitHub", "gh-pages"]
 
         main_category: Documentation
