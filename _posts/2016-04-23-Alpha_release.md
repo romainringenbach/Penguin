@@ -5,6 +5,7 @@ published: true
 category: News
 description: Description/Change log of the first release
 tags: [alpha,release,features,penguin]
+language: en
 ---
 
 # Hi !

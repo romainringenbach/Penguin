@@ -5,6 +5,7 @@ published: true
 category: Documentation
 description: Current Status, avaible features, short documentation about customizing.
 tags: [penguin, description, current status, gh-pages, documentation]
+language: en
 ---
 
 # Features
