@@ -26,7 +26,7 @@ Un petit poste pour vous dire que la version dev de Penguin intègre maintenant 
 - base du SEO
 - ~~RSS~~ cassé avec la dernière mise à jour (fonctionne mais pour toutes les langues ^^')
 
-# Choses qui ne sont pas encore supporté
+# Choses qui ne sont pas encore supportées
 
 - responsive design
 - CSS avancé
