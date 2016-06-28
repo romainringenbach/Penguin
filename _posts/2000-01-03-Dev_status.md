@@ -10,10 +10,7 @@ language: en
 
 # Stable ?
 
-~~The current [gh-pages](http://penguin.neaworld.fr/) work under dev branch~~ So don't update/use dev branch of Penguin. (The configuration file and landing page are broken).
-
-Internationalization is currently in developpement, it will come with a new landing page.
-New [configuration file](https://github.com/nealith/Penguin/blob/dev/_data/penguin.yml) is already avaible for the curious :)
+The current [gh-pages](http://penguin.neaworld.fr/) work under dev branch
 
 # Features
 
@@ -26,40 +23,12 @@ New [configuration file](https://github.com/nealith/Penguin/blob/dev/_data/pengu
 - SEO base (meta in head and hidden sitemap)
 - Logo, title and description : stupid management
 - Basic navigation bar
+- Multi-languages
 
 # Configuration
 
-All you need to customize your gh-pages is in _config.yml :
-
-    #Penguin conf
-
-    url: penguin.neaworld.fr
-
-    logo: /images/logo.png
-    categories_with_dates: [News]
-    main_category: Documentation
-    team_name: "nealith"
-
-    content_hide: true
-
-    defaults:
-        -
-            scope:
-                path: "" #Don't touch :)
-            values:
-                title: "Penguin"
-                description: "A Jekyll Simgle-Page theme for you project, simple, easy to customize !"
-                tags: ["Penguin", "Jekyll", "Single-Page", "Simple", "Project", "GitHub", "gh-pages"]
-
-
-    simple_color:
-        enable: true #Don't touch too :)
-        main_color: "#d3d3d3"
-        secondary_color: "#282828"
-        third_color: "#676767"
-
-
-I thing this example is enough for a explanation :)
+All you need to customize your gh-pages is in _data/penguin.yml.
+The configuration is currently easy to understand with the given example.
 
 # Things will be dev
 
