@@ -1,0 +1,26 @@
+<ul>
+{% for posts in category %}
+    {% for post in posts %}
+        {% if post.url and post.language %}
+            {% if post.language == page.language %}
+    <li>
+        <article>
+            <div class="article-header">
+            {% if post.title %}
+            <title>{{ post.title }}</title>
+            {% endif %}
+            {% for category_date in site.categories_with_dates %}
+                {% if category.first == category_date %}
+            <time>{{ post.date | date_to_long_string }}</time>
+                {% endif %}
+            {% endfor %}
+            </div>
+            {{ post.content }}
+        </article>
+    </li>
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+</ul>
+</div>

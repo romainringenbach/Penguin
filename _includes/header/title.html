@@ -1,0 +1,9 @@
+{% if page.title %}
+<title>{{ page.title }}</title>
+{% else %}
+    {% if site.data.penguin.languages.[page.language].title %}
+<title>{{ site.data.penguin.languages.[page.language].title }}</title>
+    {% else %}
+<title>{{ site.data.penguin.languages.[site.data.penguin.default_language].title }}</title>
+    {% endif %}
+{% endif %}

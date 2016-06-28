@@ -1,30 +1,3 @@
-#Penguin conf
-
-url: penguin.neaworld.fr
-
-logo: /images/logo.png
-categories_with_dates: [News]
-main_category: Documentation
-team_name: "nealith"
-
-content_hide: true
-
-defaults:
-    -
-        scope:
-            path: ""
-        values:
-            title: "Penguin"
-            description: "A Jekyll Simgle-Page theme for you project, simple, easy to customize !"
-            tags: ["Penguin", "Jekyll", "Single-Page", "Simple", "Project", "GitHub", "gh-pages"]
-
-
-simple_color:
-    enable: true
-    main_color: "#d3d3d3"
-    secondary_color: "#282828"
-    third_color: "#676767"
-
 # Sass conf
 
 sass:
@@ -72,7 +45,7 @@ host:    127.0.0.1
 baseurl: "" # does not include hostname
 
 # Outputting
-permalink:     date
+permalink:     /:categories/:year/:title
 paginate_path: /page:num
 timezone:      null
 
