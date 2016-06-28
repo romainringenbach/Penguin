@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Alpha release
+title: Support du multi-langue
 published: true
 category: Actualité
-description: Description/Change log of the first release
-tags: [alpha,release,features,penguin]
-language: en
+description: Annonce du multi-langue, listes des fonctionnalités à venir
+tags: [dev,multi-langue,fonctionnalités,penguin]
+language: fr
 ---
 
 # Salut !
