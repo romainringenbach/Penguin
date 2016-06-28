@@ -11,9 +11,8 @@
         {% else %}
 <div class="catbloc" id="{{ category | first | remove:' ' }}">
         {% endif %}
-        {% endif %}
-
-        {% include content.html %}
+    {% endif %}
+{% include content.html %}
 
 {% endfor %}
 <script type="text/javascript" src="/scripts/script.js"></script>
