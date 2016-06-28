@@ -2,7 +2,7 @@
 layout: post
 title: Alpha release
 published: true
-category: News
+category: Actualité
 description: Description/Change log of the first release
 tags: [alpha,release,features,penguin]
 language: en
