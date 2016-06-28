@@ -1,13 +1,13 @@
 <nav id="nav">
     {% for category in site.categories %}
         {% if page.language %}
-            {% for category_level_one in site.data.penguin.[page.language].first_level_categories %}
+            {% for category_level_one in site.data.penguin.languages.[page.language].first_level_categories %}
                 {% if category.first == category_level_one %}
     <a href="#{{ category | first | remove:' ' }}"><strong>{{ category | first }}</strong></a>
                 {% endif %}
             {% endfor %}
         {% else %}
-            {% for category_level_one in site.data.penguin.[site.data.penguin.default_language].first_level_categories %}
+            {% for category_level_one in site.data.penguin.languages.[site.data.penguin.default_language].first_level_categories %}
                 {% if category.first == category_level_one %}
     <a href="#{{ category | first | remove:' ' }}"><strong>{{ category | first }}</strong></a>
                 {% endif %}
