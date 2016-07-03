@@ -1,5 +1,5 @@
 ---
 layout: nil
-language: fr
+language: en
 ---
 {% include rss.xml %}
