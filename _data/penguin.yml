@@ -14,6 +14,8 @@ simple_color:
     secondary_color: "#282828"
     third_color: "#676767"
 
+avaible_languages: ["en","fr"]
+
 languages:
     en:
         title: "Penguin"
