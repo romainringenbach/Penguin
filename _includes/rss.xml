@@ -1,6 +1,3 @@
----
-layout: nil
----
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
@@ -15,7 +12,7 @@ layout: nil
 
     {% for post in site.posts %}
      {% for category_date in site.project_categories_with_dates %}
-      {% if post.category == category_date %}
+      {% if post.category == category_date and post.language == page.language %}
     <entry>
         <title>{{ post.title }}</title>
         <link href="{{ post.url }}"/>

@@ -2,6 +2,34 @@ header
     padding: 5% 5% 5% 5%
     margin: 0%
     overflow: auto
+    #languages
+        position: absolute
+        top: 10px
+        right: 10px
+        border: solid
+        border-color: black
+        border-width: 0px
+        border-radius: 5px
+        overflow: auto
+        #current-language
+            padding: 5px
+            background-color: $current-language-background-color
+            cursor: pointer
+            color: $current-language-font-color
+        #language-selector
+            display: none
+            padding: 5px
+            background-color: $language-selector-background-color
+            .language-row
+                margin: 0px
+                padding-top: 5px
+                cursor: pointer
+                a
+                    color: $language-selector-font-color
+                    text-decoration: none
+    #languages:hover
+        #language-selector
+            display: block
     .logo
         float: left
         width: 30%
