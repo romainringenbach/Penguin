@@ -24,7 +24,7 @@ Un petit poste pour vous dire que la version dev de Penguin intègre maintenant 
 - support du multi-langage
 - tout dans la configuration (pas de code source à toucher)
 - base du SEO
-- ~~RSS~~ cassé avec la dernière mise à jour (fonctionne mais pour toutes les langues ^^')
+- RSS
 
 # Choses qui ne sont pas encore supportées
 

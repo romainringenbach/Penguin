@@ -24,7 +24,7 @@ Le site [gh-pages](http://penguin.neaworld.fr/) actuel tourne sous la branche de
 - support du multi-langage
 - tout dans la configuration (pas de code source à toucher)
 - base du SEO
-- ~~RSS~~ cassé avec la dernière mise à jour (fonctionne mais pour toutes les langues ^^')
+- RSS
 
 # Configuration
 
