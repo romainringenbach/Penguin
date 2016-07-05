@@ -1,0 +1,9 @@
+{% if page.description %}
+<meta name="description" content="{{ page.description }}"/>
+{% else %}
+    {% if site.data.penguin.languages.[page.language].description %}
+<meta name="description" content="{{ site.data.penguin.languages.[page.language].description }}"/>
+    {% else %}
+<meta name="description" content="{{ site.data.penguin.languages.[site.data.penguin.default_language].description }}"/>
+    {% endif %}
+{% endif %}

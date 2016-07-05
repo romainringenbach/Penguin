@@ -1,0 +1,21 @@
+
+{% if site.data.penguin.simple_color.enable == true %}
+
+$body_color: {{ site.data.penguin.simple_color.third_color }}
+
+$nav_color: {{ site.data.penguin.simple_color.secondary_color }}
+$nav_font_color: {{ site.data.penguin.simple_color.main_color }}
+
+$content_color: {{ site.data.penguin.simple_color.main_color }}
+$content_font_color: {{ site.data.penguin.simple_color.secondary_color }}
+$content_link_font_color : {{ site.data.penguin.simple_color.third_color }}
+
+$title_font_color: {{ site.data.penguin.simple_color.secondary_color }}
+$description_font_color: {{ site.data.penguin.simple_color.secondary_color }}
+
+$current-language-background-color: {{ site.data.penguin.simple_color.secondary_color }}
+$current-language-font-color: {{ site.data.penguin.simple_color.main_color }}
+$language-selector-background-color: {{ site.data.penguin.simple_color.main_color }}
+$language-selector-font-color: {{ site.data.penguin.simple_color.secondary_color }}
+
+{% endif %}

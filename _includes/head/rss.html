@@ -1,0 +1,8 @@
+<link rel="alternate" type="application/rss+xml"
+{% if site.data.penguin.languages.[page.language].rss_title %}
+title="{{ site.data.penguin.languages.[page.language].rss_title }}"
+href="{{ site.data.penguin.url }}/{{ page.language }}/flux.xml"/>
+{% else  %}
+title="{{ site.data.penguin.languages.[site.data.penguin.default_language].rss_title }}"
+href="{{ site.data.penguin.url }}/{{ site.data.penguin.default_language }}/flux.xml"/>
+{% endif %}

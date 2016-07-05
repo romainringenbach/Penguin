@@ -1,0 +1,5 @@
+{% if site.data.penguin.languages.[page.language].charset %}
+<meta charset="{{ site.data.penguin.languages.[page.language].charset }}"/>
+{% else  %}
+<meta charset="{{ site.data.penguin.languages.[site.data.penguin.default_language].charset }}"/>
+{% endif %}

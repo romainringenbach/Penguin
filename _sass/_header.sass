@@ -1,0 +1,53 @@
+header
+    padding: 5% 5% 5% 5%
+    margin: 0%
+    overflow: auto
+    #languages
+        position: absolute
+        top: 10px
+        right: 10px
+        border: solid
+        border-color: black
+        border-width: 0px
+        border-radius: 5px
+        overflow: auto
+        #current-language
+            padding: 5px
+            background-color: $current-language-background-color
+            cursor: pointer
+            color: $current-language-font-color
+        #language-selector
+            display: none
+            padding: 5px
+            background-color: $language-selector-background-color
+            .language-row
+                margin: 0px
+                padding-top: 5px
+                cursor: pointer
+                a
+                    color: $language-selector-font-color
+                    text-decoration: none
+    #languages:hover
+        #language-selector
+            display: block
+    .logo
+        float: left
+        width: 30%
+        img
+            width: 100%
+            height: 100%
+            object-fit: contain
+    .text
+        float: left
+        margin-left: 5%
+        width: 65%
+        title
+            display: inherit
+            font-size: 2em
+            font-style: bold
+            color: $title_font_color
+        strong
+            text-align: justify
+            font-size: 1.1em
+            font-style: bold
+            color: $description_font_color

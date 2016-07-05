@@ -1,10 +1,15 @@
 <head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
-	
-	<title>{{ site.project_name }}</title>
+	{% include head/rss.html %}
+	{% include head/charset.html %}
+	{% include head/title.html %}
+	{% include head/tags.html %}
+	{% include head/description.html %}
+	<link rel="stylesheet" type="text/css" href="/stylesheets/styles.css">
+	{% if site.data.penguin.url %}
+	<link rel="canonical" href="{{ site.data.penguin.url }}{{ page.url }}"/>
+	{% endif %}
 	<meta name="viewport" content="width=device-width"/>
-	{% if site.project_logo %}
-	<link href="{{ site.project_logo }}" type="image/png" rel="icon" >
+	{% if site.data.penguin.logo %}
+	<link href="{{ site.data.penguin.logo }}" type="image/png" rel="icon" >
 	{% endif %}
 </head>

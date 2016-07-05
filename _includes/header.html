@@ -1,33 +1,28 @@
 <header>
-
-	<div class="header">
-		
-		{% if site.project_logo %}
-
-			<div class="logo">
-				
-				<img src="{{site.project_logo}}">
-
-			</div>
-
-		{% endif %}
-
-		<div class="text">
-
-			{% if site.project_name %}
-
-				<title>{{ site.project_name }}</title>
-
-			{% endif %}
-
-			{% if site.project_description %}
-
-				<strong>{{ site.project_description }}</strong>
-
-			{% endif %}		
-
-		</div>
-
+	{% if site.data.penguin.logo %}
+	<div class="logo">
+		<img src="{{site.data.penguin.logo}}">
 	</div>
+	{% endif %}
+	<div class="text">
+		{% include header/title.html %}
+		{% include header/description.html %}
+	</div>
+	{% if site.data.penguin.avaible_languages.size > 1 and page.language %}
 
+	<div id="languages">
+		<div id="current-language">
+			{{ page.language }}
+		</div>
+		<div id="language-selector">
+			{% for lang in site.data.penguin.avaible_languages %}
+				{% unless lang == page.language %}
+			<div class="language-row">
+				<a href="{{ site.data.penguin.url }}/{{ lang }}">{{ lang }}</a>
+			</div>
+				{% endunless %}
+			{% endfor %}
+		</div>
+	</div>
+	{% endif %}
 </header>

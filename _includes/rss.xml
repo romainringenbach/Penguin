@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>site.data.penguin.languages.[page.language].title</title>
+    <link href="{{ site.data.penguin.url }}/{{ site.data.penguin.default_language }}/"/>
+    <link href="{{ site.data.penguin.url }}/{{ site.data.penguin.default_language }}/flux.xml" rel="self"/>
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
+    <id>/</id>
+    <author>
+        <name>{{ site.project_team_name }}</name>
+    </author>
+
+    {% for post in site.posts %}
+     {% for category_date in site.data.penguin.languages.[page.language].categories_with_dates %}
+
+      {% if post.category == category_date and post.language == page.language %}
+    <entry>
+        <title>{{ post.title }}</title>
+        <link href="{{ post.url }}"/>
+        <updated>{{ post.date | date_to_xmlschema }}</updated>
+        <id>/{{ post.id }}</id>
+        <content type="html">{{ post.content | xml_escape }}</content>
+    </entry>
+      {% endif %}
+     {% endfor %}
+    {% endfor %}
+
+</feed>

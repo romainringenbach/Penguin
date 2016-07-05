@@ -1,23 +1,27 @@
 <!DOCTYPE html>
-<html lang="FR-fr">
-{% include head.html %}
-<body>
-	{% include header.html %}
-	{% include nav.html %}
-	<div class="content">
-		<div class="infobox">
-			<h1>{{ page.title }}</h1>
-			<div>
-				{{ page.date | date: "%d.%m.%Y" }}
+<html lang="{% include lang.html %}">
+	{% include head.html %}
+	<body>
+		<div class="page">
+
+			{% include header.html %}
+			{% include nav.html %}
+			<div class="content">
+				<div class="infobox">
+					<h1>{{ page.title }}</h1>
+					<div>
+						{{ page.date | date: "%d.%m.%Y" }}
+					</div>
+					<div>
+						{{ page.tags }}
+					</div>
+				</div>
+				<article>
+					{{ content }}
+				</article>
+				{% include footer.html %}
 			</div>
-			<div>
-				{{ page.tags }}
-			</div>
+
 		</div>
-		<article>
-			{{ content }}
-		</article>
-		{% include footer.html %}
-	</div>
-</body>
+	</body>
 </html>

@@ -1,0 +1,18 @@
+{% for category in site.categories %}
+    {% if page.language %}
+        {% if category.first == site.data.penguin.languages.[page.language].main_category %}
+<div class="firstcatbloc" id="{{ category | first | remove:' ' }}">
+        {% else %}
+<div class="catbloc" id="{{ category | first | remove:' ' }}">
+        {% endif %}
+    {% else %}
+        {% if category.first == site.data.penguin.languages.[site.data.penguin.default_language].main_category %}
+<div class="firstcatbloc" id="{{ category | first | remove:' ' }}">
+        {% else %}
+<div class="catbloc" id="{{ category | first | remove:' ' }}">
+        {% endif %}
+    {% endif %}
+{% include content.html %}
+
+{% endfor %}
+<script type="text/javascript" src="/scripts/script.js"></script>

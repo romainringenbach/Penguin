@@ -1,0 +1,9 @@
+<div class="error">
+
+    {% if page.language %}
+        {{site.data.penguin.languages.[page.language].404_message}}
+    {% else %}
+        {{site.data.penguin.languages.[site.data.penguin.default_language].404_message}}
+    {% endif %}
+
+</div>
